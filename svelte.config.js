@@ -12,7 +12,7 @@ const config = {
 			esbuild(defaultOptions) {
 				return {
 					...defaultOptions,
-					external: 'sharp'
+					external: ['sharp']
 				};
 			}
 		}),
