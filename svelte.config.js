@@ -48,7 +48,6 @@ const config = {
 			esbuild(defaultOptions) {
 				return {
 					...defaultOptions,
-					external: ['sharp'],
 					plugins: [nativeNodeModulesPlugin]
 				};
 			}
